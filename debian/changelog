@@ -1,0 +1,5 @@
+django-csvimport (2.0.3~buzz20120904) quantal; urgency=low
+
+  * Initial release.
+
+ -- Akash Deep Verma <akashdeep.verma@flexydial.com>  Tue, 04 Sep 2012 13:59:58 +0530
