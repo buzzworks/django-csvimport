@@ -1,15 +1,15 @@
-Source: django-csvimport
+Source: django-bulkinsert
 Section: python
 Priority: optional
 Maintainer: Akash Deep Verma <akashdeep.verma@flexydial.com>
 Build-Depends: python-all (>= 2.7), debhelper (>= 9)
 Standards-Version: 3.9.3
 
-Package: python-django-csvimport
+Package: python-django-bulkinsert
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
 Provides: ${python:Provides}
 Description: django csv importer
- django-csvimport is a generic importer tool to allow the upload of CSV files
+ django-bulkinsert is a generic importer tool to allow the upload of CSV files
  for populating data. The egg installs an admin cvsimport model that has a file
  upload field.

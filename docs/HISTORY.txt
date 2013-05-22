@@ -6,16 +6,16 @@ Contributors listed as [github.com username] where they are on github
 0.9 - Missed import of re for change to display of error log - 9th Dec 2012
 ---------------------------------------------------------------------------
 
-#. Import re in csvimport/models.py [blorenz]
+#. Import re in bulkinsert/models.py [blorenz]
 
 0.8 - Tidy up logging and Boolean handling - 9th Dec 2012
 ---------------------------------------------------------
 
 #. Fix display of error log so there are newlines for each entry [smeyfroi]
-#. Log processed rows to the csvimport.management.commands.csvimport logger [smeyfroi]
+#. Log processed rows to the bulkinsert.management.commands.bulkinsert logger [smeyfroi]
 #. Fix for boolean data [smeyfroi]
 #. Add setting for using standard logging machinery for Admin UI log lines [edcrewe]
-#. Add test to check creation and content of csvimport log file [edcrewe] 
+#. Add test to check creation and content of bulkinsert log file [edcrewe] 
 
 0.7 - Fixes and merge in changes for running up the test app - 24th Nov 2012
 ----------------------------------------------------------------------------
@@ -63,11 +63,11 @@ Contributors listed as [github.com username] where they are on github
 0.2 - Initial beta release version - 29th July 2011
 ---------------------------------------------------
 
-#. Build it as a django-csvimport egg
-#. Create csvimport management command
+#. Build it as a django-bulkinsert egg
+#. Create bulkinsert management command
 #. Improve character set detection and unicode handling
-#. Add admin csvimport model to upload CSV files with logging of import
-#. Use file upload save to trigger csvimport command
+#. Add admin bulkinsert model to upload CSV files with logging of import
+#. Use file upload save to trigger bulkinsert command
 #. Autodetect column mappings by matching model fields and CSV header text
 #. Add a deduplicate feature
 #. Start to add test suite with data / app for HELIOS cross agency supply chain 

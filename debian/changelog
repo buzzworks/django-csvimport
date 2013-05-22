@@ -1,4 +1,4 @@
-django-csvimport (2.0.3~buzz20120904) quantal; urgency=low
+django-bulkinsert (2.0.3~buzz20120904) quantal; urgency=low
 
   * Initial release.
 

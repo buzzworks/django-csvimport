@@ -3,7 +3,7 @@ import os
 
 version = '0.9'
 
-setup(name='django-csvimport',
+setup(name='django-bulkinsert',
       version=version,
       description="Import CSV files to django models",
       long_description=open("README.txt").read() + "\n" +
@@ -20,7 +20,7 @@ setup(name='django-csvimport',
       keywords='CVS import django fixture',
       author='Ed Crewe',
       author_email='edmundcrewe@gmail.com',
-      url='https://github.com/edcrewe/django-csvimport',
+      url='https://github.com/edcrewe/django-bulkinsert',
       license='Apache',
       packages=find_packages(exclude=['ez_setup']),
       include_package_data=True,

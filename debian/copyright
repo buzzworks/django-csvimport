@@ -1,7 +1,7 @@
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: django-csvimport
+Upstream-Name: django-bulkinsert
 Upstream-Contact: Ed Crewe <edmundcrewe@gmail.com>
-Source: https://pypi.python.org/pypi/django-csvimport
+Source: https://pypi.python.org/pypi/django-bulkinsert
 
 Files: *
 Copyright: 2013 Ed Crewe <edmundcrewe@gmail.com>
